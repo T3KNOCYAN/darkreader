@@ -6,7 +6,7 @@ describe('Modifying settings', () => {
         const newSettings = {
             enabledFor: [] as string[],
             disabledFor: [] as string[],
-            syncSettings: true,
+            syncSettings: false,
         };
 
         // Cumulative length should be over the browser limit on record size
